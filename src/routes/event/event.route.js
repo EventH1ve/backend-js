@@ -4,5 +4,6 @@ const eventRouter = express.Router()
 
 
 eventRouter.get('/api/event',eventController.getAllEvents)
+eventRouter.post('/api/event/create',eventController.addEvent)
 
 module.exports = eventRouter
