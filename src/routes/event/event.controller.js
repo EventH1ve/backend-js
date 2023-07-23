@@ -74,5 +74,4 @@ exports.updateEvent = async (req, res) => {
   catch (err) {
     return res.status(500).json(`Error While updating Event ${err}`)
   }
-3
 }
